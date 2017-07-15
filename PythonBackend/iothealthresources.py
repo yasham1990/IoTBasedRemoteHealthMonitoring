@@ -771,7 +771,7 @@ def login():
 		print("email is...")
 		print(email)
 	else:
-		email = 'yasham@gmail.com'
+		email = ''
         	session['email'] = email
         if 'access-token' in request.args:
             access_token = request.args.get('access-token')
