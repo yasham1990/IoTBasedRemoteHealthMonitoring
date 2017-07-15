@@ -129,7 +129,7 @@ CREATE TABLE `DeviceCredentials` (
 
 LOCK TABLES `DeviceCredentials` WRITE;
 /*!40000 ALTER TABLE `DeviceCredentials` DISABLE KEYS */;
-INSERT INTO `DeviceCredentials` VALUES (20,'227Y3S','401cab29c8583c488984d0d310c93619','http://54.69.139.242:3000/customurl'),(21,'227XW2','700353918cf516d5e3a5cf3f19c2fd6f','http://34.209.213.54:3000/customurl'),(23,'227YNS','f7be41614ec335f5b189a6ea60f91f58','http://localhost:3000/customurl');
+INSERT INTO `DeviceCredentials` VALUES (20,'','',''),(21,'','',''),(23,'','','');
 /*!40000 ALTER TABLE `DeviceCredentials` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -161,7 +161,7 @@ CREATE TABLE `EmergencyContacts` (
 
 LOCK TABLES `EmergencyContacts` WRITE;
 /*!40000 ALTER TABLE `EmergencyContacts` DISABLE KEYS */;
-INSERT INTO `EmergencyContacts` VALUES (20,'Yasham','Cousin','1234567890','yasham1990@gmail.com','56 S','1234567890',1),(20,'Singhal','Cousin','1234567890','yasham1990@gmail.com','56 S','1234567890',2);
+INSERT INTO `EmergencyContacts` VALUES (20,'','Cousin','1234567890','','56 S','1234567890',1),(20,'Singhal','Cousin','1234567890','','56 S','1234567890',2);
 /*!40000 ALTER TABLE `EmergencyContacts` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -396,7 +396,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (20,'Yasham Singhal','yasham1990@gmail.com','Yash123#','Doctor'),(21,'pawan','pawan@pawan.pawan','Yash123#','Patient'),(22,'FirstProj','abc@abc.com','Yash123#',NULL),(23,'Yash','yasham@gmail.com','Yash123#','Patient');
+INSERT INTO `users` VALUES (20,'','','','Doctor'),(21,'','','','Patient'),(22,'FirstProj','','',NULL),(23,'Yash','','','Patient');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
