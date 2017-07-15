@@ -1,0 +1,6 @@
+framework module Pods_BLE_Heart_Rate {
+  umbrella header "Pods-BLE Heart Rate-umbrella.h"
+
+  export *
+  module * { export * }
+}
