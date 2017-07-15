@@ -5,10 +5,10 @@ from sqlalchemy.sql import text
 class MySQLConnection(object):
     def __init__(self, app, db):
         config = {
-                'host': 'cmpe295b.cgje8hjr4ff1.us-west-2.rds.amazonaws.com',
-                'database': 'iothealth1', # we got db as an argument
-                'user': 'admin',
-                'password': 'india123',
+                'host': '',
+                'database': '', # we got db as an argument
+                'user': '',
+                'password': '',
                 'port': '3306' # change the port to match the port your SQL server is running on
         }
         # this will use the above values to generate the path to connect to your sql database
