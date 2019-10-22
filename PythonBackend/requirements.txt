@@ -69,7 +69,7 @@ PAM==0.4.2
 paramiko==1.15.2
 pathspec==0.3.3
 pexpect==3.1
-Pillow==2.3.0
+Pillow==6.2.0
 piston-mini-client==0.7.5
 pluggy==0.4.0
 py==1.4.31
