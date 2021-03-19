@@ -52,7 +52,7 @@ httplib2==0.8
 humanize==0.5
 ipaddress==1.0.17
 itsdangerous==0.23
-Jinja2==2.7.2
+Jinja2==2.11.3
 jmespath==0.8.0
 jsonschema==2.5.1
 lockfile==0.8
