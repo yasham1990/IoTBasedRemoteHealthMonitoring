@@ -111,6 +111,6 @@ urllib3==1.7.1
 virtualenv==15.1.0
 wcwidth==0.1.5
 websocket-client==0.32.0
-Werkzeug==0.9.4
+Werkzeug==0.15.3
 xdiagnose===3.6.3build2
 zope.interface==4.0.5
