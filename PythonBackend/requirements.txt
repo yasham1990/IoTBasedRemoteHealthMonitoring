@@ -66,7 +66,7 @@ oauth2==1.5.211
 oauthlib==0.6.3
 oneconf==0.3.7.14.4.1
 PAM==0.4.2
-paramiko==1.15.2
+paramiko==2.10.1
 pathspec==0.3.3
 pexpect==3.1
 Pillow==2.3.0
