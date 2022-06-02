@@ -47,7 +47,7 @@ gitdb==0.6.4
 GitPython==1.0.1
 gunicorn==18.0
 gyp==0.1
-html5lib==0.999
+html5lib==0.99999999
 httplib2==0.8
 humanize==0.5
 ipaddress==1.0.17
