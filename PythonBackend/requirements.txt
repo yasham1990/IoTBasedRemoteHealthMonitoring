@@ -91,7 +91,7 @@ python-debian===0.1.21-nmu2ubuntu2
 pytz==2016.7
 pyxdg==0.25
 PyYAML==3.11
-reportlab==3.0
+reportlab==3.5.55
 requests==2.2.1
 requests-oauthlib==0.7.0
 sessioninstaller==0.0.0
